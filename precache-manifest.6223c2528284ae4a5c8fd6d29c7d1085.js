@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f8ae4ad6980e923263bf861f7968a59",
+    "revision": "ea80f3312ff34830239f7af2b3c3066d",
     "url": "/desafio-b2w/index.html"
   },
   {
-    "revision": "b6a2b1d3c4db52c0abc4",
+    "revision": "4760366736851c10e717",
     "url": "/desafio-b2w/static/css/main.42ff2ebc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafio-b2w/static/js/2.bff6bba5.chunk.js.LICENSE"
   },
   {
-    "revision": "b6a2b1d3c4db52c0abc4",
-    "url": "/desafio-b2w/static/js/main.be6dde5d.chunk.js"
+    "revision": "4760366736851c10e717",
+    "url": "/desafio-b2w/static/js/main.3b1c106e.chunk.js"
   },
   {
     "revision": "d06cb5c980b8b32022c3",
