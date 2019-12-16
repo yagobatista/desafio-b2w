@@ -69,6 +69,9 @@ $yellow-border: $yellow-star-wars 2px solid;
     padding: $padding;
     border: $yellow-border;
     @extend .general-props;
+    &:hover{
+      cursor: pointer;
+    }
   }
 
   .ladda-button[data-loading] {
