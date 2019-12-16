@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/desafio-b2w/precache-manifest.6223c2528284ae4a5c8fd6d29c7d1085.js"
+  "/desafio-b2w/precache-manifest.9af8ba25922166b9c7e9de2c28199233.js"
 );
 
 self.addEventListener('message', (event) => {
