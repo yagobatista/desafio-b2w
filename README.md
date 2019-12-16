@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Desafio B2W
 
-## Available Scripts
+O demo do desafio encontra-se na página https://yagobatista.github.io/desafio-b2w/
 
-In the project directory, you can run:
+## Instruções do desafio da B2W
 
-### `npm start`
+A B2W gostaria de fazer uma brincadeira com seus associados, que são aficionados por Star Wars. O jogo consiste em, dado um planeta aleatório da franquia, exibir como seria o clima, o terreno e em quantos filmes da franquia ele apareceu.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para auxiliar quem for apresentar a brincadeira, queremos desenvolver uma aplicação que pegue aleatoriamente um planeta da franquia e exiba seus dados para servir como cola.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Uma equipe de UX especializada desenvolveu a seguinte proposta de interface:
 
-### `npm test`
+![interface prototype](https://lh3.googleusercontent.com/tubJ22pBao1DQy3o0VfBjcmrN4epO7Q04KVk3D1JeVSIuJwvoDru-XqtxDnHsX7yeZz-qdkXpb2HZNrc5FFV9XKezGuzERTa2jagCy5Ht3sEl8JBHzJrCxn_8SkjYqmfGfJcN_Rb)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Você tem liberdade para criar uma interface com as informações mostradas acima. Recomendamos usar React, facilitado pelo create-react-app, porém sinta-se à vontade para nos surpreender com outras tecnologias.
 
-### `npm run build`
+As informações sobre os planetas do Star Wars encontram-se na API:https://swapi.co/
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instruções para instalação
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Instruções para instalação do nvm, tome como referência a página
+<https://github.com/nvm-sh/nvm#install--update-script>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+```
 
-### `npm run eject`
+## Instalação nodejs
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```shell
+nvm install 10.16.3
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Clone respositório
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```shell
+git clone git@github.com:yagobatista/desafio-b2w.git && cd desafio-b2w/
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Instruções de execução
 
-## Learn More
+```shell
+nvm use 10.16.13 && npm install && npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Acessar <http://localhost:3000/> no browser
